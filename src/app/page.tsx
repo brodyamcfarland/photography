@@ -16,17 +16,30 @@ export default function Home() {
                className={`${mainFont.className} flex min-h-screen flex-col items-center p-2`}
           >
                <Links setPage={setPage} />
-               <div className="max-w-md mx-auto">
-                    <p className="p-4 text-sm">
-                         Something something something something something
-                         something something something something something
-                         something something something something something
-                         something something something something.
-                    </p>
-               </div>
-               {page === "gallery" && <Gallery />}
-               {page === "about" && <About />}
-               {page === "bookings" && <Bookings />}
+               {page === "gallery" && (
+                    <>
+                         <div className="max-w-md mx-auto">
+                              <p className="p-4 text-sm">Gallery stuffs.</p>
+                         </div>
+                         <Gallery />
+                    </>
+               )}
+               {page === "about" && (
+                    <>
+                         <div className="max-w-md mx-auto">
+                              <p className="p-4 text-sm">About stuffs.</p>
+                         </div>
+                         <About />
+                    </>
+               )}
+               {page === "bookings" && (
+                    <>
+                         <div className="max-w-md mx-auto">
+                              <p className="p-4 text-sm">Bookings stuffs.</p>
+                         </div>
+                         <Bookings />
+                    </>
+               )}
           </main>
      );
 }

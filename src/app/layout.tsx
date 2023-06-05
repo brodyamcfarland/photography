@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import "./globals.css";
+import SocialFooter from "@/components/SocialFooter";
 
 export const metadata = {
      title: "Hazey Photography",
@@ -16,6 +17,7 @@ export default function RootLayout({
                <body className="bg-gradient-to-b from-white to-[#727272] scrollbar-thin scrollbar-rounded-md scrollbar-thumb-gray-500 scrollbar-track-gray-900">
                     <Header />
                     {children}
+                    <SocialFooter />
                </body>
           </html>
      );

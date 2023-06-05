@@ -6,6 +6,7 @@ import { useState } from "react";
 import Gallery from "@/components/Gallery";
 import About from "@/components/About";
 import Bookings from "@/components/Bookings";
+import { Toaster } from "react-hot-toast";
 
 const mainFont = Inter({ weight: "400", subsets: ["latin"] });
 
@@ -15,7 +16,7 @@ export default function Home() {
           <main
                className={`${mainFont.className} flex min-h-screen flex-col items-center p-2`}
           >
-               <Links setPage={setPage} />
+               <Links setPage={setPage} page={page} />
                {page === "gallery" && (
                     <>
                          <div className="max-w-md mx-auto">
@@ -35,11 +36,17 @@ export default function Home() {
                {page === "bookings" && (
                     <>
                          <div className="max-w-md mx-auto">
-                              <p className="p-4 text-sm">Bookings stuffs.</p>
+                              <p className="p-4 text-sm">
+                                   Bookings stuffs. Bookings stuffs. Bookings
+                                   stuffs. Bookings stuffs. Bookings stuffs.
+                                   Bookings stuffs. Bookings stuffs. Bookings
+                                   stuffs. Bookings stuffs.
+                              </p>
                          </div>
                          <Bookings />
                     </>
                )}
+               <Toaster />
           </main>
      );
 }

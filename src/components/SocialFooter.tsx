@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const SocialFooter = () => {
      return (
-          <div className="flex flex-col items-center justify-center p-1 border-b border-black/10 bg-gray-300 shadow-lg sticky bottom-0 z-50">
+          <div className="flex flex-col items-center justify-center p-1 border-t border-black/10 bg-gray-300 shadow-lg sticky bottom-0 z-50">
                <div className="flex gap-4 items-center">
                     <div className="flex flex-col items-center">
                          <Image

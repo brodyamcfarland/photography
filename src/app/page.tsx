@@ -36,12 +36,7 @@ export default function Home() {
                {page === "bookings" && (
                     <>
                          <div className="max-w-md mx-auto">
-                              <p className="p-4 text-sm">
-                                   Bookings stuffs. Bookings stuffs. Bookings
-                                   stuffs. Bookings stuffs. Bookings stuffs.
-                                   Bookings stuffs. Bookings stuffs. Bookings
-                                   stuffs. Bookings stuffs.
-                              </p>
+                              <p className="p-4 text-sm">Bookings stuffs.</p>
                          </div>
                          <Bookings />
                     </>

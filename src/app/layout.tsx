@@ -4,7 +4,7 @@ import SocialFooter from "@/components/SocialFooter";
 
 export const metadata = {
      title: "Hazey Photography",
-     description: "Collections and bookings for Hazey Photography.",
+     description: "Collections & Bookings | Hazey Photography.",
 };
 
 export default function RootLayout({

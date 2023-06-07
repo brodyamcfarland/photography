@@ -35,10 +35,10 @@ const About = () => {
                <h1 className="text-center uppercase text-xs font-semibold tracking-widest">
                     BOOKING
                </h1>
-               <p className="text-gray-700 text-xs text-center pt-2 pb-10">
+               <p className="text-gray-700 text-xs text-center pt-2 pb-10 px-4">
                     Feel free to reach out via the{" "}
-                    <span className="font-bold">'Contact'</span> tab form or
-                    send an email to{" "}
+                    <span className="font-bold">'Contact'</span> tab or send an
+                    email to{" "}
                     <span className="underline font-semibold">
                          hazeyphotography@gmail.com
                     </span>

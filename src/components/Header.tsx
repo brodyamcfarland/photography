@@ -6,7 +6,7 @@ const cursiveFont = Caveat({ subsets: ["latin"] });
 const Header = () => {
      return (
           <header
-               className={`${cursiveFont.className} flex items-center justify-center p-4 border-b border-black/10 bg-gray-300 shadow-lg sticky sticky top-0 z-50`}
+               className={`${cursiveFont.className} flex items-center justify-center p-4 border-b border-black/10 bg-gray-300 shadow-lg sticky top-0 z-50`}
           >
                <Image
                     src={"/mainlogo2.png"}
